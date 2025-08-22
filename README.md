@@ -5,7 +5,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [vercel](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://recipe-page-rosy-xi.vercel.app/)
 
 ## Author
 
