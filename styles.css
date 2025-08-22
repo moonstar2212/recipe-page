@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+body {
+  background-color: hsl(330, 100%, 98%);
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Young Serif", sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 35px;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: hsl(24, 5%, 18%);
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  padding-bottom: 10px;
+}
+
+.prep-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 15px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.prep-time h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: hsl(332, 51%, 32%);
+  padding-left: 20px;
+}
+
+.prep-time ul {
+  padding-left: 40px;
+  margin: 0;
+}
+
+.prep-time li {
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 8px;
+  color: hsl(30, 10%, 34%);
+}
+
+#ingredients h2 {
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#ingredients li {
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  line-height: 2;
+}
+
+#instructions h2 {
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+#instructions li {
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5;
+}
+
+#nutritions h2 {
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+#nutritions p {
+  font-family: "Outfit", sans-serif;
+  padding-left: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table td {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+table {
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table tr td:last-child {
+  color: hsl(332, 51%, 32%);
+}
+
+ul li {
+  padding-left: 20px;
+}
+
+ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+ol li {
+  padding-left: 20px;
+}
+
+ol li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+}
+
+hr {
+  border-color: hsl(30, 54%, 90%);
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 16px;
+    padding: 20px;
+  }
+}
+
+.attribution {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+}
